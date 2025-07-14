@@ -1,6 +1,6 @@
-# GitHub Repo Summarizer – Backend
+# GitHub Repo Summarizer
 
-This backend service analyzes a cloned GitHub repository and returns a summarized explanation using a powerful open-source LLM (Groq API + LLaMA/Gemma). It extracts superficial metadata like folder structure, `package.json` dependencies, and README snippets, then queries the LLM to generate a concise markdown summary.
+This project analyzes a cloned GitHub repository and returns a summarized explanation using a powerful open-source LLM (Groq API + LLaMA/Gemma). It extracts superficial metadata like folder structure, `package.json` dependencies, and README snippets, then queries the LLM to generate a concise markdown summary.
 
 ## Features
 
