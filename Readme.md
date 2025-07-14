@@ -8,7 +8,6 @@ This backend service analyzes a cloned GitHub repository and returns a summarize
 - Analyzes folders and package-level structure
 - Reads first few lines of `README.md` if present
 - Fast summarization with minimal token cost (only superficial data sent)
-- Ready to plug into any frontend or CLI
 
 ---
 
