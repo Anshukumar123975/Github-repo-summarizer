@@ -6,7 +6,7 @@ export async function getSummary(context) {
   .join('\n');
   const prompt = `You are a backend project code analysis assistant.
 
-Analyze the following Node.js GitHub project and return:
+Analyze the following GitHub project and return:
 1. A detailed project summary in **9–10 complete lines**.
 2. A **2–3 line explanation** for each folder listed, describing what code usually goes in and what role it plays in a backend system.
 
