@@ -10,11 +10,14 @@ You are a highly skilled software analyst. You have been given the following inf
 Write a detailed, user-friendly, and developer-focused summary of this repo. These sections should be explained:
 1. The main purpose of the repo.
 2. How it works overall.
-3. Core features of the repository
-4. Any potential improvements or missing parts.
+3. Main architecture
+4. Folder wise explanation if present
+5. Core features of the repository
+6. Any potential improvements or missing parts.
 
 **Be like a senior manager explaining this to your junior or newcomer or a beginner**
 **You must explain the repo in a way that will save days to understand a repo for newcomers**
+**Don't tell the user to ask questions back**
 Avoid generic language. Be accurate, insightful, professional and motivating.
 `;
 
