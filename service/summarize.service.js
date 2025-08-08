@@ -18,12 +18,13 @@ Write a detailed, user-friendly, and developer-focused summary of this repo. The
 **Be like a senior manager explaining this to your junior or newcomer or a beginner**
 **You must explain the repo in a way that will save days to understand a repo for newcomers**
 **Don't tell anything that prompts the user to ask questions back**
+**Never say things like let me know if you have any questions**
 Avoid generic language. Be accurate, insightful, professional and motivating.
 `;
 
 
   try {
-    console.log("🟡 Prompt sent to Groq:\n", prompt);
+    console.log("Prompt sent to Groq:\n", prompt);
     const response = await axios.post(
       'https://api.groq.com/openai/v1/chat/completions',
       {
